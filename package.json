@@ -31,6 +31,7 @@
     "chai": "3.5.0",
     "compression": "1.6.1",
     "del": "2.2.0",
+    "exports-loader": "^0.6.3",
     "express": "4.13.4",
     "fs": "0.0.2",
     "gulp": "^3.9.1",
@@ -58,6 +59,7 @@
     "gulp-util": "3.0.7",
     "gulp-watch": "4.3.5",
     "gulp.spritesmith": "^6.2.1",
+    "jquery-ui": "^1.10.5",
     "karma": "0.13.22",
     "karma-chrome-launcher": "0.2.3",
     "karma-cli": "0.1.2",
@@ -71,6 +73,7 @@
     "merge-stream": "^1.0.0",
     "mocha": "2.4.5",
     "morgan": "1.7.0",
+    "nunjucks-loader": "^2.4.3",
     "object-assign": "4.0.1",
     "open": "0.0.5",
     "pretty-hrtime": "1.0.2",
@@ -82,8 +85,12 @@
     "webpack-dev-middleware": "1.5.1",
     "webpack-hot-middleware": "2.10.0"
   },
+  "jshintConfig": {
+    "esversion": 6
+  },
   "license": "MIT",
   "dependencies": {
+    "jquery": "^3.0.0",
     "normalize.css": "^4.0.0"
   }
 }

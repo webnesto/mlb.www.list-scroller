@@ -1,0 +1,10 @@
+<div class="symbol">&nbsp;</div>
+<div class="instruction">
+	{% if direction == UP %}
+		previous day
+	{% elif direction == DOWN %}
+		next day
+	{% else %}
+		error {# should not happen #}
+	{% endif %}
+</div>

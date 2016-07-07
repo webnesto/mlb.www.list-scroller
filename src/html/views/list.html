@@ -1,0 +1,9 @@
+{% if state == STATES.LOADING %}
+	<div class="loading">
+	  <div class="dot1"></div>
+	  <div class="dot2"></div>
+  	</div>
+{% else %}
+	<div class="list-scroller" data-module="games" style="display: none;"></div>
+	<div class="display-date">{{month}}/{{day}}/{{year}}</div>
+{% endif %}
